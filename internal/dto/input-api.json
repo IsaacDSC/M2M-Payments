@@ -1,0 +1,25 @@
+{
+  "buyer": {
+    "flag": "MASTER_CARD",
+    "expired_date": "25/06",
+    "bearer_name": "ISAAC DE ALMEIDA SILVA",
+    "card": "1234 5678 9012 3456",
+    "code": "762"
+  },
+  "purchase": {
+    "total_price": 100000,
+    "installments": "",
+    "items": [
+      {
+        "product_name": "Phone",
+        "quantity": 1
+      }
+    ]
+  },
+  "shopkeeper": {
+    "cnpj": "1123132132",
+    "cpf": "",
+    "address": "Rua asdad, Brazil",
+    "cep": 1233213
+  }
+}
