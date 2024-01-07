@@ -1,0 +1,40 @@
+### HEALTH
+GET http://localhost:3000/health
+Content-type: application/json
+
+
+
+### TRANSACTION
+GET http://localhost:3000/transaction
+Content-type: application/json
+
+
+### CREATE TRANSACTION
+POST http://localhost:3000/transaction
+Content-type: application/json
+
+{
+  "buyer": {
+    "brand": "MASTER_CARD",
+    "expired_date": "25/06",
+    "bearer_name": "ISAAC DE ALMEIDA SILVA",
+    "card": "5513 3821 5581 6417",
+    "code": "762"
+  },
+  "purchase": {
+    "total_price": 100000,
+    "installments": 10,
+    "items": [
+      {
+        "product_name": "Phone",
+        "quantity": 1
+      }
+    ]
+  },
+  "shopkeeper": {
+    "cnpj": 1123132132,
+    "cpf": 0,
+    "address": "Rua asdad, Brazil",
+    "cep": 1233213
+  }
+}
